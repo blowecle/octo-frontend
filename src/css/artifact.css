@@ -1,0 +1,248 @@
+@font-face {
+  font-family: montserrat;
+  src: url('../../public/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: montserratThinItalic;
+  src: url('../../public/Montserrat-ThinItalic.ttf');
+}
+
+@font-face {
+  font-family: montserratItalic;
+  src: url('../../public/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: montserratThin;
+  src: url('../../public/Montserrat-Thin.ttf')
+}
+
+@font-face {
+  font-family: montserratExtraLight;
+  src: url('../../public/Montserrat-ExtraLight.ttf')
+}
+
+.artifact-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    min-height: 120vh;
+    font-family: montserrat;
+    position: relative;
+}
+
+.artifact-blurb {
+  color: white;
+  margin-top: 8%;
+  font-size: 1.1rem;
+  width: 80%;
+  margin-left: 5%;
+  font-family: montserratExtraLight;
+  font-style: italic;
+}
+
+.last-artifact-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  min-height: 120vh;
+  font-family: montserrat;
+}
+
+.info-wrapper {
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.artifact-name {
+  letter-spacing: 2px;
+  color: white;
+  font-size: 1.7em;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  font-style: bold;
+}
+
+.last-artifact-name {
+  letter-spacing: 2px;
+  color: white;
+  font-size: 1.7em;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  font-style: bold;
+}
+
+.artifact-artist-name {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-top: 1%;
+}
+
+.last-name {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.artifact-artist-wrapper {
+  width: 60%;
+  position: absolute;
+  margin-left: 5%;
+}
+
+.line-div {
+    border-bottom: 3px solid white;
+    width: 50%;
+    max-width: 250px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.last-line-div {
+  border-bottom: 3px solid white;
+  width: 50%;
+  max-width: 250px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+.artifact-artist-description {
+    color: white;
+    font-size: .8rem;
+    font-style: italic;
+    margin-top: 10%;
+    letter-spacing: 4px;
+}
+
+.last-description {
+  color: white;
+  font-size: .8rem;
+  font-style: italic;
+  margin-top: 10%;
+  letter-spacing: 4px;
+  margin-left: 5%;
+}
+
+.inner-wrapper{
+  display: flex;
+  align-items: center;
+  height: 60vh;
+}
+
+.artifact-info {
+    font-size: 24px;
+    color: white;
+    background-color: #bcbcbc;
+    border: 2px solid #a1a1a1;
+    box-shadow: 1% 1% 1% rgb(0 0 0 / 50%);
+    width: 20%;
+}
+
+.artifact-carousel .artifact-image {
+  max-width: 85%;
+  max-height: 60vh;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  a { color: white; text-decoration: none; }
+
+.carousel-arrow {
+  text-align: center;
+  margin: 8% 0;
+  z-index: 99;
+  min-height: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-width: 20%;
+}
+
+.bounce-right {
+  right: 0;
+  animation: bounce-right 6s infinite;
+}
+
+.bounce-left {
+  left: 0;
+  animation: bounce-left 6s infinite;
+}
+
+@keyframes bounce-right {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(-10px);
+  }
+}
+
+@keyframes bounce-left {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(10px);
+  }
+}
+  @keyframes carousel {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0)
+    }
+    33% {
+      transform: translateX(-100%);
+    }
+    53% {
+      transform: translateX(-100%);
+    }
+    66% {
+      transform: translateX(-200%);
+    }
+    76% {
+      transform: translateX(-200%);
+    }
+    86% {
+        transform: translateX(-100%);
+    }
+    94% {
+        transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+/* .inner-wrapper {
+    max-height: 37%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+} */

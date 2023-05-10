@@ -1,0 +1,144 @@
+    div {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .single-artist-name {
+        font-size: 2.2rem;
+        color: white;
+        padding-top: .5rem;
+        margin-left: 5%;
+    }
+
+    .artist-wrapper {
+        background-image: url("https://res.cloudinary.com/dyjzfdguj/image/upload/v1678994623/evan%20web%20photos/Artist_BG_2-100_rgzx2v.jpg");
+        background-size: 100% 100%;
+        min-height: 100vh;
+    }
+
+    .single-artist-title {
+        color: white;
+        font-family: montserratThinItalic;
+        font-size: 1.5rem;
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+
+    .artist-main-image {
+        width: 90%;
+        padding-top: 2%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .artist-blurb {
+        color: white;
+        padding: 5%;
+    }
+
+    .solo-artist-name {
+        margin-left: 5%;
+        width: 90%;
+        font-size: 2rem;
+        color: white;
+        padding-top: .5rem;
+    }
+
+    .artist-intro-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        font-style: italic;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .artist-carousel-wrapper {
+        padding-top: 2%;
+    }
+
+    .social {
+        display: flex;
+        color: white;
+        margin-left: 5%;
+    }
+
+    .artist-company-name {
+        font-size: 1.2rem;
+        color: white;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        font-family: montserratThin;
+    }
+
+    .artist-name {
+        font-size: 2.5rem;
+        color: white;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .artist-company {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .artist-company-link {
+        display: flex;
+        color: white;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    .artifact-list-container {
+        padding: 1rem 0 1rem 1rem;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .artifact-list {
+        padding-top: 1rem;
+        color: white;
+    }
+
+    .artifact-list-name {
+        font-size: 1.2rem;
+    }
+    .artifact-list-description {
+        font-size: 1rem;
+        font-style: italic;
+        padding-bottom: 1rem;
+    }
+
+    .info-container {
+        padding: 1rem;
+    }
+
+    .social {
+        color: white;
+        text-decoration: none;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        font-family: montserratThinItalic;
+    }
+
+    a:link { text-decoration: none; }
+
+    a:visited { text-decoration: none; }
+
+    .blurb-container {
+        overflow-y: scroll;
+        max-height: 20%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid white;
+
+    }
+
+    .blurb {
+        padding: 5px;
+        color: white;
+    }

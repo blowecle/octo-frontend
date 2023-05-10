@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    .blog-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    .filler {
+        height: 20vh;
+    }
+  }
