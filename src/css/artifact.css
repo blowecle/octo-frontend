@@ -34,6 +34,23 @@
     position: relative;
 }
 
+@media screen and (min-width: 800px){
+    .artifact-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 30%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        min-height: 120vh;
+        font-family: montserrat;
+        position: relative;
+    }
+
+    .carousel-wrapper {
+        max-height: 100%;
+    }
+}
+
 .artifact-blurb {
   color: white;
   margin-top: 8%;
@@ -91,7 +108,6 @@
   text-decoration: none;
   letter-spacing: 1px;
   margin-top: 1%;
-  margin-left: 5%;
 }
 
 .artifact-artist-wrapper {
